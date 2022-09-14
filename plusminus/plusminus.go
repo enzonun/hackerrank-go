@@ -12,9 +12,3 @@ func RoundDown(input float64, places int) (newVal float64) {
 	newVal = round / pow
 	return
 }
-
-// func main() {
-// var positive float64
-// positive += 1
-// fmt.Println(RoundDown(positive/6, 6))
-// }
